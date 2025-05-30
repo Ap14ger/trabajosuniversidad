@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div><button>Cambiar color</button>
-    <input type="text" placeholder="introduce un texto"/>
-    <script src="evento.js"></script></div>
+  </head>
+  <body>
+    <div>
+      <button>Cambiar color</button>
+      <input type="text" placeholder="introduce un texto" />
+    </div>
 
     <div>
-        <button id="1">cualcular pulsaciones</button>
-        <input type="text">
+      <button id="myButton">Click me!</button>
+      <p id="clickCount">Clicks: 0</p>
     </div>
-    
-</body>
+
+    <div>
+      <input type="number" id="numero" placeholder="introduce numero" />
+      <button onclick="calculaRaiz()">calcular raiz</button>
+      <p id="resultado">resultado :</p>
+    </div>
+    <script src="evento.js"></script>
+  </body>
 </html>
